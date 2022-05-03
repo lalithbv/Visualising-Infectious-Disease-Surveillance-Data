@@ -11,7 +11,7 @@ Surveillance is essential to improve public health as the threat of infectious d
 
 ## Dashboard
 
-![Dashboard](./Dashboard.png)
+![Dashboard](./Dashboard.gif)
 
 ## Limitation
 The only limitation of this project is that the dashboard is built on historical data. For the surveillance to be effective, the data should be analysed in near real-time. This can be accomplished by constructing data pipelines to extract, manipulate, and analyse data from the data source using Apache Beam and Python. Additionally, efforts should be made by the Australian government to create an API that streams national public health surveillance data to the population. 
