@@ -9,6 +9,10 @@ Surveillance is essential to improve public health as the threat of infectious d
 4. I forecasted Influenza cases for 52 weeks by experimenting with the Holt-Winters method, LSTM, Facebook Prophet, and SARIMA model. I found the SARIMA model to be the most accurate model which shows yearly seasonality, peaking during winter.
 5. I simulated the influenza epidemic based on a deterministic SEIR (Susceptible-Exposed-Infectious-Recovered) model that visualizes the impact of preventive measures like wearing a mask and incorporating social distancing to help reduce the spread of infection (He, Peng, & Sun, 2020). 
 
+## Dashboard
+
+![Dashboard](./Dashboard.png)
+
 ## Limitation
 The only limitation of this project is that the dashboard is built on historical data. For the surveillance to be effective, the data should be analysed in near real-time. This can be accomplished by constructing data pipelines to extract, manipulate, and analyse data from the data source using Apache Beam and Python. Additionally, efforts should be made by the Australian government to create an API that streams national public health surveillance data to the population. 
 
