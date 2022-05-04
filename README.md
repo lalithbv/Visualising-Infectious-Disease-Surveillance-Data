@@ -115,4 +115,4 @@ To conclude, I see this project to be an effective public health reporting syste
 
 - Chriscaden, K. (2020, October 13). Impact of covid-19 on people's livelihoods, their health and our Food Systems. Retrieved May 02, 2022, from https://www.who.int/news/item/13-10-2020-impact-of-covid-19-on-people's-livelihoods-their-health-and-our-food-systems
 - He, S., Peng, Y., & Sun, K. (2020). Seir modeling of the COVID-19 and its dynamics. Nonlinear Dynamics, 101(3), 1667-1680. doi:10.1007/s11071-020-05743-y
-- Ludmir, E. B., & Enquist, L. W. (2009). Viral genomes are part of the phylogenetic tree of life. Nature Reviews Microbiology, 7(8), 615-615. doi:10.1038/nrmicro2108-c4
+- Ludmir, E. B., & Enquist, L. W. (2009). Viral genomes are part of the phylogenetic tree of life. Nature Reviews Microbiology, 7(8), 615-615. doi:10.1038/nrmicro2108-c4 
