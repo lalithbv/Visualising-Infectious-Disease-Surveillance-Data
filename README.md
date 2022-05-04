@@ -36,7 +36,7 @@ The Holt-Winters forecasting method applies a triple exponential smoothing for l
 
 Long Short Term Memory networks – usually just called “LSTMs” – are a special kind of RNN, capable of learning long-term dependencies. LSTMs are explicitly designed to avoid the long-term dependency problem. Remembering information for long periods of time is practically their default behavior, not something they struggle to learn!
 
-![LSTM_model](./Resources/LSTM_model.png)
+![LSTM_Model](./Resources/LSTM_Model.png)
 
 ### Facebook Prophet [RMSE: 5342.23]
 
