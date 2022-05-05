@@ -2,6 +2,17 @@
 
 Surveillance is essential to improve public health as the threat of infectious diseases continues to rise. The consequences of an uncontrolled spread of infections can disrupt a country’s economy and social system. It can result in a significant loss of human life, and it poses an unprecedented threat to people’s livelihood, public health and food systems (Chriscaden, 2020). Insights obtained from public health monitoring systems enable authorities to come to a timely resolution and act accordingly. Although the National Notifiable Disease Surveillance System (NNDSS) was established by the Australian Government for the sole purpose of coordinating the national surveillance on an agreed list of communicable diseases, it has limited functionality in terms of reporting such as the lack of any interactive visualizations or forecasting methods. This project aims to demonstrate a robust reporting system for public health using Influenza disease surveillance data sourced from the NNDSS website, as explained below.
 
+## Data
+
+The public health surveillance data is collected from Australia’s National Notifiable Disease Surveillance System (NNDSS) website for the “Influenza (laboratory confirmed)” (Flu). The data for Influenza is recorded from the year 2009 to 2019 which is in MS Excel format with a file size of 26498kB for Influenza and 1192kB for IPD (i.e., less than 30MB combined).
+The specifications of the data are as follows. The influenza dataset contains six columns (or features) namely: Week Ending (Friday), State, Age group, Sex, Indigenous status, and Type/Subtype of the virus. The first column i.e., “Week Ending (Friday)” represents the date of the Friday, following the day that the notified case was diagnosed with Influenza. The “State” column represents the State or Territory which notifies NNDSS of the diagnosis. The included states are NSW, NT, Qld, SA, Tas, Vic, and WA. The age group is represented in years with the group of 5-year bins. The “Sex” column represents the gender of the individual i.e., “Male”, “Female”, “X”, and “Unknown”. The Indigenous status is represented as “Indigenous” (Aboriginal and/or Torres Strait Islander origin), “Non-Indigenous” (Not of Aboriginal or Torres Strait Islander origin), and “Unknown” (Not stated, unknown or blank). The last column denotes the type and subtype of the Influenza virus namely “A(H3N2)”, “A(H1N1)pmd09”, “A(H1N1)”, “A(unsubtyped)”, “B”, “C”, “A and B”, and “Untyped”.
+
+There are three data caveats to be accounted for, that includes:
+
+- The data from the Australia Capital Territory (ACT) are not included in the dataset for the flu.
+- The recorded data is only for the cases that are diagnosed by health care professionals. Hence, there will be a degree of under-representation when compared with the true number of cases.
+- It is crucial to note that variations in the number of cases over time don't always represent changes in disease prevalence or incidence. Other factors like changes in testing regulations, screening programmes, and public awareness may have an impact on the number of notifications received each year.
+
 ## Dashboard
 
 I built an interactive dashboard using PowerBI that visualizes every attribute of the notified cases. As per my findings, children under the age of 15 years are the most affected age group which accounts for over 30% of the cases, Influenza-A virus is the dominant strain, and NSW is the most infected state in Australia.
