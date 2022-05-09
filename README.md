@@ -25,8 +25,6 @@ I determined the seasonality of the flu to have a yearly seasonality that peaks 
 
 ![ETS](./Resources/ETS.png)
 
-![SeasonalityPlot](./Resources/SeasonalityPlot.png)
-
 ## Phylogenetic Tree
 
 I constructed a Phylogenetic tree using Nucleotide sequences to visualize the evolution of the virus (Ludmir & Enquist, 2009), as below:
