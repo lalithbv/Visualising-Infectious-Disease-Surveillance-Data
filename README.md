@@ -29,7 +29,7 @@ I determined the seasonality of the flu to have a yearly seasonality that peaks 
 
 ## Phylogenetic Tree
 
-I constructed a Phylogenetic tree using Nucleotide sequences to visualize the evolution of the virus to be in the order of A(H1N1), B, C and A(H3N2) (Ludmir & Enquist, 2009).
+I constructed a Phylogenetic tree using Nucleotide sequences to visualize the evolution of the virus (Ludmir & Enquist, 2009), as below:
 
 ![PhylogeneticTree](./Resources/influenza_tree.png)
 
